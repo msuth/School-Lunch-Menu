@@ -1,0 +1,71 @@
+Initial notes for school lunch menu system for mount-pleasant-primary.co.uk website.
+
+Undecided between using php &  MySQL or Polymer.
+
+If php I will use 2 tables:
+DATE
+date | week
+MEALS
+week | day | meal
+
+IF $date = X select date &  week from DATE
+
+IF $day = TODAY echo meal FROM MEALS
+
+Files required:
+Index
+Week-1
+Week-1-Monday
+Week-1-Tuesday
+Week-1-Wednesday
+Week-1-Thursday
+Week-1-Friday
+Week-1-Mobile
+Week-2
+Week-2-Monday
+Week-2-Tuesday
+Week-2-Wednesday
+Week-2-Thursday
+Week-2-Friday
+Week-2-Mobile
+Week-3
+Week-3-Monday
+Week-3-Tuesday
+Week-3-Wednesday
+Week-3-Thursday
+Week-3-Friday
+Week-3-Mobile
+Week-4
+Week-4-Monday
+Week-4-Tuesday
+Week-4-Wednesday
+Week-4-Thursday
+Week-4-Friday
+Week-4-Mobile
+School-Closed
+----------------------------------------------------------
+
+Index:
+Overall container for all page data.
+
+#info 
+Should display today's day and current week. 
+Between 00.00 and 15.59 it should display the meals for that day. 
+Between 16.00 and 23.59 it should display the meals for the next day.
+
+Page Buildup:
+#info
+#week-1 
+#week-2
+#week-3
+#week-4
+#about
+
+Week-X:
+Combines all Week-Day meal's into 5 columns. On mobile devices each day should be an accordion panel (Week-X-Mobile).
+
+Week-Day:
+Displays the meals for that day
+
+School-Closed:
+Displays on weekends and during holiday's.

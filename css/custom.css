@@ -1,0 +1,55 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+.LunchTableStyle {font-size:1em; text-align:center;}
+.LunchTableStyle th {background-color:#339beb; color:#fff; font-size:1.2em; border:none;}
+.LunchTableStyle td {font-size:1em; text-align:center;}
+.LunchTableStyle td i {color: 339beb;}
+
+.panel-heading a.collapsed {
+    background-color: #339beb;
+    color: #ffffff;
+}
+
+.MobileMenu{
+	text-align: center;
+}
+
+.MobileMenu em{
+	color: #339beb;
+}
+
+.MobileMenu h1 {
+	color: #339beb;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+/*.banner-caption {top: 20%;}*/
+.banner-caption h1 {font-size: 2.6em;}
+
+.menu-layout h1, h2, h3 {margin-bottom: 0px;margin-top: 0px;}
+
+@media (max-width: 767px)  {
+.site-slogan {
+    display: none;
+}
+
+.logo {
+    display:none;
+}
+
+.banner-caption {top: 20%;}
+
+.navbar-header{
+    display:none;
+}
+}
