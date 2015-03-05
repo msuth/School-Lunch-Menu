@@ -29,7 +29,7 @@
 
 <h3>Still to do:</h3>
 <ol>
-	<li>Need to figure out a way to display today's menu in the specified initial page section. (drafts can be seen in includes/date.php</li>
+	<li>Need to figure out a way to display today's menu in the specified initial page section.</li>
 	<li>Between 00.00 and 15.59 it should display the meals for that day. Between 16.00 and 23.59 it should display the meals for the next day.</li>
 	<li>On Saturday and Sunday, I want to display "School Closed" and the following Monday's menu (If $today = Sat OR Sun AND Week = 1 then echo $Main1 for Day=Mon and Week=2 etc.)</li>
 </ol>
