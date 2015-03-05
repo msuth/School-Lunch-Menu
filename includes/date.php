@@ -26,7 +26,7 @@ $Week1Day3_End = '2050-12-31';
  
 if (strtotime($Week1Day3_Start) <= strtotime($Week1Day3_End)) {
 include 'week1-mobile-3.php';
-$Week1Day3_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week1Day3_Start)));
+$Week1Day3_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week1Day3_Start)));
 }
  
 // Week1 Thursday
@@ -35,7 +35,7 @@ $Week1Day4_End = '2050-12-31';
  
 if (strtotime($Week1Day4_Start) <= strtotime($Week1Day4_End)) {
 include 'week1-mobile-4.php';
-$Week1Day4_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week1Day4_Start)));
+$Week1Day4_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week1Day4_Start)));
 }
  
 // Week1 Friday
@@ -44,7 +44,7 @@ $Week1Day5_End = '2050-12-31';
  
 if (strtotime($Week1Day5_Start) <= strtotime($Week1Day5_End)) {
 include 'week1-mobile-5.php';
-$Week1Day5_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week1Day5_Start)));
+$Week1Day5_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week1Day5_Start)));
 }
  
 // Week2 Monday
@@ -71,7 +71,7 @@ $Week2Day3_End = '2050-12-31';
  
 if (strtotime($Week2Day3_Start) <= strtotime($Week2Day3_End)) {
 include 'week2-mobile-3.php';
-$Week2Day3_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week2Day3_Start)));
+$Week2Day3_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week2Day3_Start)));
 }
  
 // Week2 Thursday
@@ -80,7 +80,7 @@ $Week2Day4_End = '2050-12-31';
  
 if (strtotime($Week2Day4_Start) <= strtotime($Week2Day4_End)) {
 include 'week2-mobile-4.php';
-$Week2Day4_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week2Day4_Start)));
+$Week2Day4_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week2Day4_Start)));
 }
  
 // Week2 Friday
@@ -89,7 +89,7 @@ $Week2Day5_End = '2050-12-31';
  
 if (strtotime($Week2Day5_Start) <= strtotime($Week2Day5_End)) {
 include 'week2-mobile-5.php';
-$Week2Day5_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week2Day5_Start)));
+$Week2Day5_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week2Day5_Start)));
 }
  
 // Week3 Monday
@@ -116,7 +116,7 @@ $Week3Day3_End = '2050-12-31';
  
 if (strtotime($Week3Day3_Start) <= strtotime($Week3Day3_End)) {
 include 'week3-mobile-3.php';
-$Week3Day3_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week3Day3_Start)));
+$Week3Day3_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week3Day3_Start)));
 }
  
 // Week3 Thursday
@@ -125,7 +125,7 @@ $Week3Day4_End = '2050-12-31';
  
 if (strtotime($Week3Day4_Start) <= strtotime($Week3Day4_End)) {
 include 'week3-mobile-4.php';
-$Week3Day4_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week3Day4_Start)));
+$Week3Day4_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week3Day4_Start)));
 }
  
 // Week3 Friday
@@ -134,7 +134,7 @@ $Week3Day5_End = '2050-12-31';
  
 if (strtotime($Week3Day5_Start) <= strtotime($Week3Day5_End)) {
 include 'week3-mobile-5.php';
-$Week3Day5_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week3Day5_Start)));
+$Week3Day5_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week3Day5_Start)));
 }
  
 // Week4 Monday
@@ -161,7 +161,7 @@ $Week4Day3_End = '2050-12-31';
  
 if (strtotime($Week4Day3_Start) <= strtotime($Week4Day3_End)) {
 include 'week4-mobile-3.php';
-$Week4Day3_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week4Day3_Start)));
+$Week4Day3_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week4Day3_Start)));
 }
  
 // Week4 Thursday
@@ -170,7 +170,7 @@ $Week4Day4_End = '2050-12-31';
  
 if (strtotime($Week4Day4_Start) <= strtotime($Week4Day4_End)) {
 include 'week4-mobile-4.php';
-$Week4Day4_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week4Day4_Start)));
+$Week4Day4_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week4Day4_Start)));
 }
  
 // Week4 Friday
@@ -179,7 +179,7 @@ $Week4Day5_End = '2050-12-31';
  
 if (strtotime($Week4Day5_Start) <= strtotime($Week4Day5_End)) {
 include 'week4-mobile-5.php';
-$Week4Day5_Start = date ("Y-m-d", strtotime("+1 day", strtotime($Week4Day5_Start)));
+$Week4Day5_Start = date ("Y-m-d", strtotime("+28 day", strtotime($Week4Day5_Start)));
 }
 
 

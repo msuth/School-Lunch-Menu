@@ -119,8 +119,19 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 column" data-animation-effect="fadeIn">
-							<h1 class="text-center">We are on <span>$thisweek</span></h1>
-							<h1 class="text-center">Today is <span><?php echo date('l'); ?></span></h1>				
+						
+							<?php
+							// The current date
+							$week_of_year=(int)date("W");
+							$menu_week =  ($week_of_year % 4) +1;   // Rotates every 4 weeks. As the menu week is one week ahead of the current calendar week we need to "+1"
+
+							$day_of_week=(int)date("N");
+							$menu_option_day = $day_of_week;     // Days of the week from 1 ( Monday ) to 7  (Sunday)
+
+							echo "<h1 class='text-center'>We are on <span>Week $menu_week</span></h1>";
+							echo "<h1 class='text-center'>Today is <span>"; echo date('l'); echo "</span></h1>";
+							?>
+								
 						</div>
 						<div class="col-md-6 column text-center" data-animation-effect="fadeIn">
 							<h2 class="menu-layout"><span>Today's Menu</span></h2>
