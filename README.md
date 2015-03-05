@@ -16,23 +16,25 @@ I wrote the Initial-Notes.txt in my bed at 5am as I couldn't sleep.
 
 I've spent a solid 12 hours working on this tonight.
 
-Things I've done:
-1. Came up with the database
-1.1 Ended up having to add a column called ID as I couldn't extract
-individual records on the includes/week-X-mobile-X.php files
-2. Downloaded a free theme to get under way with this project
-(http://htmlcoder.me/)
-3. Laid out the home page and figured out how to have different views
-depending on whether the user is on a pc/phone.
-4. Managed to extract all info from the DB into 4 individual tables.
-5. Tables were fine on PC/Tablet but didn't work on a Phone as they
-contained too much data.
-5.1 Decided to use accordion panels when viewing on phone.
-6. Ran into problems when using multiple accordions on single page. Each
-accordion needs a unique 'id','data-parent' and 'href' (prefixed all
-with WeekX)
+<h3>Things I've done:</h3>
+<ol>
+	<li>Came up with the database
+		<ol>
+			<li>Ended up having to add a column called ID as I couldn't extract individual records on the includes/week-X-mobile-X.php files</li>
+		</ol>
+	</li>
+	<li>Downloaded a free theme to get under way with this project (http://htmlcoder.me/)</li>
+	<li>Laid out the home page and figured out how to have different views depending on whether the user is on a pc/phone.</li>
+	<li>Managed to extract all info from the DB into 4 individual tables. </li>
+	<li>Tables were fine on PC/Tablet but didn't work on a Phone as they contained too much data.
+		<ol>
+			<li>Decided to use accordion panels when viewing on phone.</li>
+		</ol>
+	</li>
+	<li>Ran into problems when using multiple accordions on single page. Each accordion needs a unique 'id','data-parent' and 'href' (prefixed all with WeekX)</li>
+</ol>
 
-Still to do:
+<h3>Still to do:</h3>
 <ol>
 	<li>Need to figure out a way to display today's menu in the specified initial page section. (drafts can be seen in includes/date.php</li>
 	<li>Between 00.00 and 15.59 it should display the meals for that day. Between 16.00 and 23.59 it should display the meals for the next day.</li>

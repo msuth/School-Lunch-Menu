@@ -118,6 +118,16 @@
 			<div class="banner-caption">
 				<div class="container">
 					<div class="row">
+						<div class="col-md-6 column text-center" data-animation-effect="fadeIn">
+							<h2 class="menu-layout"><span>Today's Menu</span></h2>
+							<h2 class="menu-layout">Main Courses</h2>
+								<h3 class="menu-layout">$main1</h3>
+									<h3 class="menu-layout"><span>or</span></h3>
+								<h3 class="menu-layout">$main2</h3>
+							<h2 class="menu-layout">Dessert</h2>
+								<h3 class="menu-layout">$Pud</h3>
+									<h5 class="menu-layout">Click <a href="#">here</a> to view the menu for this week</h5>
+						</div>
 						<div class="col-md-6 column" data-animation-effect="fadeIn">
 						
 							<?php
@@ -132,16 +142,6 @@
 							echo "<h1 class='text-center'>Today is <span>"; echo date('l'); echo "</span></h1>";
 							?>
 								
-						</div>
-						<div class="col-md-6 column text-center" data-animation-effect="fadeIn">
-							<h2 class="menu-layout"><span>Today's Menu</span></h2>
-							<h2 class="menu-layout">Main Courses</h2>
-								<h3 class="menu-layout">$main1</h3>
-									<h3 class="menu-layout"><span>or</span></h3>
-								<h3 class="menu-layout">$main2</h3>
-							<h2 class="menu-layout">Dessert</h2>
-								<h3 class="menu-layout">$Pud</h3>
-									<h5 class="menu-layout">Click <a href="#">here</a> to view the menu for this week</h5>
 						</div>
 					</div>
 				</div>
