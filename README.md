@@ -1,20 +1,13 @@
 # School-Lunch-Menu
 
-This is a project for my daughter's school website. I have a hard coded
-version similar to this on the existing website but it involves a lot of
-manual updating each week.
-
-The school has a 4 weekly cycle for the lunch menu so has a total of 20
-days.
-The next starting date for week 1 is 2015-03-16
-I would like to display at a glance the meal for today/tomorrow and the
-current lunch week.
-I have given each of the 20 days their first Date and intend to repeat
-their display every 28 days.
-
-I wrote the Initial-Notes.txt in my bed at 5am as I couldn't sleep.
-
-I've spent a solid 12 hours working on this tonight.
+<p>This is a project for my daughter's school website.</p>
+<p>I have a hard coded version similar to this on the existing website but it involves a lot of manual updating each week.</p>
+<p>The school has a 4 weekly cycle for the lunch menu so has a total of 20days.</p>
+<p>The next starting date for week 1 is 2015-03-16</p>
+<p>I would like to display at a glance the meal for today/tomorrow and the current lunch week.</p>
+<p>I have given each of the 20 days their first Date and intend to repeat their display every 28 days.</p>
+<p>I wrote the Initial-Notes.txt in my bed at 5am as I couldn't sleep.</p>
+<p>I've spent a solid 12 hours working on this tonight.</p>
 
 <h3>Things I've done:</h3>
 <ol>
